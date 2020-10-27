@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper;
 import org.springframework.data.mongodb.core.convert.MappingMongoConverter;
 
+//added extra configuration to remove the _class field from db
 
 @Configuration
 public class MongoConfig extends AbstractMongoClientConfiguration {
